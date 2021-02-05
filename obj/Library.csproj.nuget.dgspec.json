@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shres\\source\\repos\\E-Library\\E-Library.csproj": {}
+    "C:\\Users\\shres\\Desktop\\E-Library\\Library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shres\\source\\repos\\E-Library\\E-Library.csproj": {
+    "C:\\Users\\shres\\Desktop\\E-Library\\Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shres\\source\\repos\\E-Library\\E-Library.csproj",
-        "projectName": "E-Library",
-        "projectPath": "C:\\Users\\shres\\source\\repos\\E-Library\\E-Library.csproj",
+        "projectUniqueName": "C:\\Users\\shres\\Desktop\\E-Library\\Library.csproj",
+        "projectName": "Library",
+        "projectPath": "C:\\Users\\shres\\Desktop\\E-Library\\Library.csproj",
         "packagesPath": "C:\\Users\\shres\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shres\\source\\repos\\E-Library\\obj\\",
+        "outputPath": "C:\\Users\\shres\\Desktop\\E-Library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shres\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
