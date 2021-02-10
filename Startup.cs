@@ -21,6 +21,8 @@ namespace Library
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddSingleton(Configuration);
+            services.AddScoped<ILibraryAsset, LibraryAssetService>();
             services.AddDbContext<LibraryContext>
                 (options => options.UseSqlServer(Configuration.GetConnectionString("LibraryConnection")));
         }
