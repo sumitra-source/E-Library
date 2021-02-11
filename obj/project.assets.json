@@ -1751,6 +1751,19 @@
         "runtime": {
           "bin/placeholder/LibraryData.dll": {}
         }
+      },
+      "LibraryServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "LibraryData": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LibraryServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibraryServices.dll": {}
+        }
       }
     }
   },
@@ -6308,11 +6321,17 @@
       "type": "project",
       "path": "../LibraryData/LibraryData.csproj",
       "msbuildProject": "../LibraryData/LibraryData.csproj"
+    },
+    "LibraryServices/1.0.0": {
+      "type": "project",
+      "path": "../LibraryServices/LibraryServices.csproj",
+      "msbuildProject": "../LibraryServices/LibraryServices.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "LibraryData >= 1.0.0",
+      "LibraryServices >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 3.1.10",
       "Microsoft.EntityFrameworkCore >= 5.0.2",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.2",
@@ -6349,6 +6368,9 @@
           "projectReferences": {
             "C:\\Users\\shres\\Desktop\\LibraryData\\LibraryData.csproj": {
               "projectPath": "C:\\Users\\shres\\Desktop\\LibraryData\\LibraryData.csproj"
+            },
+            "C:\\Users\\shres\\Desktop\\LibraryServices\\LibraryServices.csproj": {
+              "projectPath": "C:\\Users\\shres\\Desktop\\LibraryServices\\LibraryServices.csproj"
             }
           }
         }
